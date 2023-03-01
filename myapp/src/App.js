@@ -7,10 +7,13 @@ import Message from "./components/Message";
 import FunctionClick from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import NameList from "./NameList";
 
 function App() {
   return (
     <div className="App">
+      <NameList />
      <Message />
       <Greet name= "Sudhanshu" heroName="123" />
       <Greet name={"Kulkarni"} heroName="searfa"/>
@@ -18,6 +21,7 @@ function App() {
       <FunctionClick />
       <EventBind />
       <ParentComponent />
+      <UserGreeting />
     </div>
   );
 }
