@@ -7,7 +7,7 @@ function FunctionClick() {
     }
     return (
         <div>
-            <button onClick={clickHandler()}>click</button>    {/* camel case and curly braces */}
+            <button onClick={clickHandler}>click</button>    {/* camel case and curly braces */}
         </div>
     )
 }
